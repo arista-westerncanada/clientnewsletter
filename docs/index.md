@@ -4,40 +4,25 @@ Welcome to the inaugural edition of the Arista Western Canada client newsletter.
 
 ---
 
-## Software Updates
+## __*Software Updates*__
+![Image Placememt](img/software_upgrades_condensed.png)
 
-### EOS — Extensible Operating System
+*Stay informed on the latest software updates across all Arista products and services.*
 
-| Version | Type | Released |
-|---|---|---|
-| 4.36.0F | Feature (current) | April 9, 2026 |
-| 4.35.3.1F | Patch | April 8, 2026 |
-| 4.35.3F | Feature | March 20, 2026 |
-| 4.23.10M | Maintenance | March 2, 2026 |
+|  Software    | Version      |  Release Date |
+| :-----------: | :-----------: | :-----------: |
+| __EOS__           | 4.36.0F <br> 4.35.3.1F <br> 4.35.3F <br> 4.23.10M | April 9th, 2026 <br> April 8th, 2026 <br> March 20th, 2026 <br> March 2nd, 2026 |
+| __CVP__           | Portal 2026.1.0 <br> Appliance 7.1.0 <br> Sensor 1.3.0 | March 30th, 2026 <br> September 2nd, 2025 <br> December 5th, 2025 |
+| __DMF__           | 8.6.3 | March 18th, 2026 |
+| __CV-CUE__         | 21.0.0 | January 16th, 2026 |
+| __Arista NDR__     | 5.3.5 | July 16th, 2025 |
+| __TerminAttr__     | 1.42.1 | February 4th, 2026 |
+| __VeloCloud SD-WAN__ <br>Orchestrator/Gateway/Edge | 6.4.1 | December 19th, 2025 |
 
-> **Note:** EOS 4.30 reached End of Software Support on March 13, 2026. If you are running any 4.30.x version contact your Arista SE to discuss upgrade planning.
+[View All Latest Software Updates](https://www.arista.com/en/support/software-download){: .md-button .md-button--primary target="_blank" }
 
-[View all software releases](https://www.arista.com/en/support/software-download){ .md-button }
 
-### CloudVision (CVP / CVaaS)
 
-| Product | Version | Released |
-|---|---|---|
-| CVP Portal | 2026.1.0 | March 30, 2026 |
-| CVP Appliance | 7.1.0 | September 2, 2025 |
-| CVP Sensor | 1.3.0 | December 5, 2025 |
-| TerminAttr | 1.42.1 | February 4, 2026 |
-
-> **Note:** CVP 2024.3 reaches End of Software Support on April 10, 2026. Plan your upgrade to 2026.1.0 now.
-
-### Other Products
-
-| Product | Version | Released |
-|---|---|---|
-| VeloCloud SD-WAN | 6.4.1 | December 19, 2025 |
-| CV-CUE | 21.0.0 | January 16, 2026 |
-| DMF | 8.6.3 | March 18, 2026 |
-| Arista NDR | 5.3.5 | July 16, 2025 |
 
 ---
 
@@ -59,32 +44,28 @@ Welcome to the inaugural edition of the Arista Western Canada client newsletter.
 
 ---
 
-## Product Updates
+## __* Product Updates*__
 
-### New — Q1 2026: Ask AVA (CloudVision as a Service, Beta)
+![Image Placememt](img/Product_image.png)
 
-Ask AVA is now available in beta for CVaaS customers. Natural language queries for network state, anomaly surfacing, and configuration summaries directly from the CVaaS portal.
+*Stay up to date on all new Arista Product Releases, as well as End of Sale/End of Support Notices.*
 
-Example queries: *"Show me all interfaces with errors in the last 24 hours"* or *"Which devices are running EOS versions with known CVEs?"*
+### **New Product Releases** * **Q1 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
 
-[Ask AVA documentation](https://www.arista.io/help/articles/overview-core-tools-ask-ava){ .md-button }
+###  **End of Sale / End of Software Support**
+* **April 10th, 2026** — [CloudVision Portal 2024.3 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23791-end-of-software-support-for-cloudvision-portal-2024-3-release-train){: target="_blank" } 
+* **April 10th, 2026** — [DCS-7280CR3K-36S Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23790-end-of-sale-of-the-arista-dcs-7280cr3k-36s-series){: target="_blank" } 
+* **April 10th, 2026** — [DCS-7280CR3K-48YC8 Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23789-end-of-sale-of-the-arista-dcs-7280sr3k-48yc8-series){: target="_blank" } 
+* **April 10th, 2026** — [DCS-7280CR3K-32P4, DCS-7280CR3K-32D4, DCS-7280CR3MK-32P4 Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23788-end-of-sale-of-the-arista-dcs-7280cr3k-32p4-dcs-7280cr3k-32d4-and-dcs-7280cr3mk-32p4-series){: target="_blank" }
+* **March 13th, 2026** — [EOS-4.30 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23728-end-of-software-support-for-eos-4-30){: target="_blank" } 
 
-### End of Sale
+<br>
 
-| Date | Product |
-|---|---|
-| April 10, 2026 | [DCS-7280CR3K-36S Series](https://www.arista.com/en/support/advisories-notices/end-of-sale/23790-end-of-sale-of-the-arista-dcs-7280cr3k-36s-series) |
-| April 10, 2026 | [DCS-7280CR3K-48YC8 Series](https://www.arista.com/en/support/advisories-notices/end-of-sale/23789-end-of-sale-of-the-arista-dcs-7280sr3k-48yc8-series) |
-| April 10, 2026 | [DCS-7280CR3K-32P4, 32D4, CR3MK-32P4 Series](https://www.arista.com/en/support/advisories-notices/end-of-sale/23788-end-of-sale-of-the-arista-dcs-7280cr3k-32p4-dcs-7280cr3k-32d4-and-dcs-7280cr3mk-32p4-series) |
+[View All Latest End of Sale & Support Notices](https://www.arista.com/en/support/advisories-notices/endofsale){: .md-button .md-button--primary target="_blank" }
 
-### End of Software Support
 
-| Date | Product |
-|---|---|
-| April 10, 2026 | [CloudVision Portal 2024.3 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23791-end-of-software-support-for-cloudvision-portal-2024-3-release-train) |
-| March 13, 2026 | [EOS 4.30 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23728-end-of-software-support-for-eos-4-30) |
 
-[View all End of Sale & Support notices](https://www.arista.com/en/support/advisories-notices/endofsale){ .md-button }
+
 
 ---
 
