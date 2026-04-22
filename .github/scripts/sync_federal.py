@@ -86,24 +86,17 @@ def update_mkdocs(current_label, archive_folder):
     with open("mkdocs.yml", "r") as f:
         content = f.read()
 
-    nav_match = re.search(r"^nav:.*?(?=^\w|\Z)", content, re.MULTILINE | re.DOTALL)
-    if not nav_match:
-        print("WARNING: Could not find nav: section in mkdocs.yml")
-        return
+    existing_archives = re.findall(r"  - .+?: \w+/index\.md\n", content)
+    new_nav = f"nav:\n  - {next_label}: index.md\n  - {current_label}: {archive_folder}/index.md\n"
+    for archive in existing_archives:
+        if archive_folder not in archive:
+            new_nav += archive
 
-    old_nav = nav_match.group(0)
-    current_line = f"  - {current_label}: {archive_folder}/index.md\n"
-    new_nav = re.sub(
-        r"(\s+- .+?: index\.md\n)",
-        f"  - {next_label}: index.md\n{current_line}",
-        old_nav,
-        count=1
-    )
+    content = re.sub(r"nav:[\s\S]+?(?=\n\w|\Z)", new_nav, content)
 
-    new_content = content[:nav_match.start()] + new_nav + content[nav_match.end():]
     with open("mkdocs.yml", "w") as f:
-        f.write(new_content)
-    print(f"Updated mkdocs.yml: added {next_label} as current, archived {current_label}")
+        f.write(content)
+    print(f"Updated mkdocs.yml: {next_label} current, {current_label} archived")
 
 def update_local(federal_sections, next_label):
     with open("docs/index.md", "r") as f:
