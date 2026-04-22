@@ -4,8 +4,8 @@ site_description: Monthly newsletter for Arista customers across AB, MB, and SK.
 
 theme:
   name: material
-logo: AristaLogoRgbL (1).jpg
-  favicon: AristaLogoRgbL (1).jpg
+  logo: arista-logo.jpg
+  favicon: arista-logo.jpg
   font:
     text: IBM Plex Sans
     code: IBM Plex Mono
