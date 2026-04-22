@@ -1,4 +1,4 @@
-# Arista Western Canada — Client Newsletter · April 2026
+# Arista Western Canada — Client Newsletter · May 2026
 
 Welcome to the inaugural edition of the Arista Western Canada client newsletter. Each month this publication covers software updates, security advisories, product news, and regional updates for customers across Alberta, Manitoba, and Saskatchewan.
 
