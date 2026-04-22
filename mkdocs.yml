@@ -12,8 +12,8 @@ theme:
     - navigation.top
     - toc.integrate
 
-nav:
-  - April 2026: index.md
+nav:  - April 2026: index.md
+  - April 2026: April2026/index.md
 
 plugins:
   - search
